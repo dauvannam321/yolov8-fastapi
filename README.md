@@ -88,6 +88,7 @@ response = requests.post(api_host+type_rq, files=files)
 
 img = Image.open(BytesIO(response.content)) 
 plt.imshow(img)
+# plt.show()
 ```
 
 ---
